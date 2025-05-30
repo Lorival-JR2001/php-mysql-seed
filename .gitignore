@@ -1,0 +1,31 @@
+# Logs
+*.log
+*.pid
+
+# PHP
+*.swp
+*.swo
+*.bak
+*.tmp
+*.cache
+.DS_Store
+vendor/
+
+# Composer (se você usar futuramente)
+composer.lock
+
+# Docker volumes ou arquivos de estado
+.env
+.env.local
+.env.*.local
+
+# VS Code
+.vscode/
+
+# Dev Containers
+.devcontainer/devcontainer.json
+
+# Sistema
+Thumbs.db
+*.DS_Store
+
